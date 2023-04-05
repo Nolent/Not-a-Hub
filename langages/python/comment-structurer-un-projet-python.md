@@ -421,6 +421,10 @@ Configuration de PyCharm
 
 *Vous avez besoin de cette étape si vous voulez que PyCharm arrête de lever des erreurs pour des problèmes d'import et/ou pouvoir lancer votre projet directement depuis la console de PyCharm.*
 
+Ouvrez le dossier qui contient votre projet (File > Open...). Quand c'est ouvert, vérifiez que l'environnement virtuel est bien pris en compte en regardant dans le coin bas droit. Vous devriez voir la version de python utilisée, suivie de `(<nom du projet>)`. Si ce n'est pas le cas, cliquez dessus et selectionnez le.
+
+Pour lancer votre module depuis PyCharm, cliquez sur `Current File` puis sur `Edit Configurations`. Cliquez sur `Add new run configurations...`, selectionnez `Python` dans la liste qui apparait. Dans l'onglet `Configuration`, cliquez sur le label `Script path` (faites attention de bien cliquer sur le lab et pas dans le champ). Selectionnez `Module name`, puis entrez le nom de votre module (`tartempion`). Cliquez sur `Apply` puis sur `Ok` pour fermer la fenêtre. Vous pouvez maintenant lancer le projet en cliquant sur le bouton `play`, et lancer le debugger via le bouton représentant un insecte juste à coté.
+
 <!-- Lazor: arrêtez de casser les couilles et utilisez Sublime Text avec un terminal. -->
 
 Choix des technologies
